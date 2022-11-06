@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: block;
+            background-color: aliceblue;
+            border-radius: 10px;
+            margin-right: 900px;
+        }
+        .quebra{
+            display: block;
+            border: 1px solid transparent;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <label class = "quebra">Selecione arquivo: </label>
+        <input type="file" name = "f_arquivo" multiple>
+
+        <label class = "quebra">Entre com a URL: </label>
+        <input type="url" name = "f_url" placeholder = "" pattern="http://.*">
+
+    </form>
+</body>
+</html>

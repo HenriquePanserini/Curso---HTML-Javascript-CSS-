@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #6b6262;
+    color: black;
+    font-size: 22px;
+    display: table-cell;
+
+}
+a:hover{
+    background-color: red;
+}

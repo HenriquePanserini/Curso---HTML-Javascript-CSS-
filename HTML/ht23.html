@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curso de html - aula 19 - tag:del e ins</title>
+    <script>
+        function aberta(){
+            document.getElementById("d1").setAttribute("open","");
+        }
+        function fechada(){
+            document.getElementById("d1").removeAttribute("open","");
+        }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="aberta()">Open</button>
+    <button onclick="fechada()">Close</button>
+    <dialog id = "d1" open>
+        <p><dfn>HTML</dfn> - Hypertext Markup Language</p>
+        <p><dfn>CSS</dfn> - Cascading style sheets</p>
+    </dialog>
+</body>
+</html>

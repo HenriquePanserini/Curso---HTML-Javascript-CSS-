@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso de html - aula 33 - formularios 3</title>
+    <style>
+        form {
+            border: 1px solid rgb(214, 175, 214);
+            padding: 10px;
+            border-radius: 12px;
+            background-color: rgb(225, 157, 228);
+        }
+    </style>
+</head>
+
+<body>
+    <form name="form" action="#" method="get">
+        <label id="hora">Hora: </label>
+        <input type="time" id="time" name="time" min="09:00" max="17:00" required="true">
+
+        <label id="data">Data: </label>
+        <input type="date" name="data" min="2019-06-01" max="2019-06-10" required="true">
+
+        <label id="datetime">Data&Hora</label>
+        <input type="datetime-local" id="datetime" name="datetime" required="true">
+
+        <input type="submit" id="submit" name="press" value="Enter">
+
+
+    </form>
+</body>
+
+</html>

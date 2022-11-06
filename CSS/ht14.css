@@ -1,0 +1,46 @@
+p{
+    text-transform: capitalize;
+    text-indent: 100px;
+    letter-spacing: 2px;
+    line-height: 2;
+    direction: ltr;
+    word-spacing: 10px;
+}
+
+.p1{
+    color: red;
+    justify-content: center;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.p2{
+    color: blue;
+    justify-content: left;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.p3{
+    color: yellow;
+    justify-content: right;
+    text-decoration: overline;
+    text-align: right
+}
+
+.p4{
+    color: green;
+    justify-content: end;
+    text-decoration: solid;
+    text-align: left;
+}
+
+.dv1{
+    border: 1px solid #000000;
+    height: 500px;
+    width: 250px;
+    white-space: normal;
+    overflow: auto;
+    word-break: normal;
+
+}

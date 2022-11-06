@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="p1">CFB html</p>
+    <p id="p2">CFB css</p>
+    <p id="p3">CFB javascript</p>
+    <p id="p4">CFB php</p>
+    <p id="p5">CFB postgresql</p>
+
+    <input type="text" id="text" name="texto" placeholder="vazio ">
+    <div id="dv1">CFB cursos</div>
+
+    <script id="script18">
+        let tags = document.getElementsByTagName('p');
+
+        tags[3].innerHTML = "CFB typescript"
+        for (var i = 0; i < tags.length; i++) {
+            tags[i].style.color = '#f00';
+        }
+    </script>
+</body>
+
+</html>

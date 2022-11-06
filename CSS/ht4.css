@@ -1,0 +1,17 @@
+#d1,#d2,#d3{
+    border: 10px dotted darkblue;
+    padding: 0px 10px 50px 10px;
+    background-color: greenyellow;
+}
+
+#d1{
+    background-clip: border-box;
+}
+
+#d2{
+    background-clip: padding-box;
+}
+
+#d3{
+    background-clip: content-box;
+}

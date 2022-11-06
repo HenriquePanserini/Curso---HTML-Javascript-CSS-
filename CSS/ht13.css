@@ -1,0 +1,8 @@
+p{
+    text-align: center;
+    font-size: 50px;
+    background: linear-gradient(135deg, yellow, red, blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 5px 5px 5px #888;
+}

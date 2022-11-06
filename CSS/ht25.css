@@ -1,0 +1,44 @@
+section {
+    border: 3px solid #724747;
+    display: flex;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: -moz-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+div {
+    border: 1px solid #000000;
+    height: 100px;
+    flex: 1;
+}
+
+#curso1 {
+    order: 5;
+}
+
+#curso2 {
+    order: 1;
+}
+
+#curso3 {
+    order: 6;
+}
+
+#curso4 {
+    order: 2;
+}
+
+#curso5 {
+    order: 4;
+}
+
+#curso6 {
+    order: 7;
+}
+
+#curso7 {
+    order: 3;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curso de html - aula 34 - formularios 4</title>
+    <style>
+        .quebra {
+            display: block;
+        }
+        
+        .quebra2 {
+            margin-bottom: 15px;
+        }
+        
+        form {
+            border: 1px solid #aaa;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form name="f_cad" action="#" method="GET">
+        <label class="quebra">Selecione uma cor: </label>
+        <input type="color" name="f_cor">
+
+        <label class="quebra2">Digite seu email: </label>
+        <input type="email" name="f_email">
+
+
+        <input class="quebra3" src="imagens/surgar.png" type="image" name="tmp_image">
+
+        <input class="id_pass" type="submit" name="f_enviar" value="enviar">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+details{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid black;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #858080, #6b6262);
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-end;
+    items-align: center;
+    color: whitesmoke;
+}
+
+#dv1{
+    border: 0px solid black;
+    background: linear-gradient(90deg, blue, red, greenyellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+p{
+    font-size: 100px;
+}
+

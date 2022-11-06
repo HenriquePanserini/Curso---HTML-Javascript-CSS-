@@ -1,0 +1,21 @@
+#p1, #p2, #p3{
+    width: 500px;
+    height: 500px;
+    background: grey;
+    border: 1px solid;
+    border-color: darkred;
+    border-width: 20px;
+    border-height: 20px;
+    border-style: inset;
+}
+
+#p2{
+    width: 500px;
+    height: 500px;
+    background: grey;
+    border: 1px solid;
+    border-color: #000c8b;
+    border-width: 20px;
+    border-height: 20px;
+    border-style: inset;
+}

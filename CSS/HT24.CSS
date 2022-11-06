@@ -1,0 +1,34 @@
+div {
+    border: 0px solid black;
+    width: 200px;
+    height: 250px;
+    align-items: right;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+ol,
+ul,
+li {
+    border: 1px solid black;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol {
+    display: table;
+}
+
+ul {
+    display: table-row;
+}
+
+li {
+    display: table-cell;
+}
+
+#title {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}

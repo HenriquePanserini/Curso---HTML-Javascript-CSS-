@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .titulo {
+            color: #f00;
+            font-size: 20px;
+            text-decoration: underline;
+        }
+        
+        div {
+            border: 1px solid #000;
+            padding: 10px;
+            display: inline-block;
+        }
+        
+        p {
+            display: block;
+        }
+        
+        #dv2 {
+            background-color: #c0c0c0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--<table>
+        <tr>
+            <th>Peças</th>
+            <th class="titulo1">Valor</th>
+            <th class="titulo2">Estoque</th>
+        </tr>
+        <tr>
+            <td>Processador inter i3</td>
+            <td>R$800,00</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Memoria Ram 8gbs</td>
+            <td>R$250,00</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Placa-mae Asus</td>
+            <td>R$500,00</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Placa de video GEforce</td>
+            <td>R$1600,00</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Gabinete tgx</td>
+            <td>R$200,00</td>
+            <td></td>
+        </tr>
+    </table>-->
+
+    <!--<div>
+        <ol>
+            <li id="title">Tipos de documentos</li>
+            <ul>
+                <li>CNH</li>
+                <li>RG</li>
+                <li>CPF</li>
+            </ul>
+            <ul>
+                <li>CNPJ</li>
+                <li>MEI</li>
+                <li>IMEI</li>
+            </ul>
+            <ul>
+                <li>PIS</li>
+                <li>COFINS</li>
+                <li>NIS</li>
+            </ul>
+        </ol>
+    </div>
+
+    <section>
+        <div id="curso1">Curso 1</div>
+        <div id="curso2">Curso 2</div>
+        <div id="curso3">Curso 3</div>
+        <div id="curso4">Curso 4</div>
+        <div id="curso5">Curso 5</div>
+        <div id="curso6">Curso 6</div>
+        <div id="curso7">Curso 7</div>
+    </section>-->
+
+    <h1 class="titulo"> querySelectorAll</h1>
+    <p>O query selector all() é um metodo que retorna os elementos do documento que correpondem uma tag html ou uma classe css selecionado</p>
+    <h2 class="titulo">Curso de javascript</h2>
+    <p>www.youtube.com/cfbcursos</p>
+    <p>cfbcursos.com.br</p>
+    <div id="dv1">
+        <h3>Aula 26 - querySelectorAll</h3>
+        <p id="dv2">CFB cursos</p>
+        <p id="dv3">Curso de HTML profissional</p>
+    </div>
+    <div id="dv2">
+        <h3>Aula 26 - querySelectorAll</h3>
+        <p id="dv2">CFB cursos</p>
+        <p id="dv3">Curso de HTML profissional</p>
+    </div>
+    <a hrfe="http://www.youtube.com/cfbcursos" target="_blank">Canal </a>
+    <a href="http://www.youtube.com/" target="_blank">Site </a>
+
+    <hr>
+
+    <script>
+        var elementos = document.querySelectorAll("#dv2");
+        for (var i = 0; i < elementos.length; i++) {
+            elementos[i].style.color = "green";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+table,
+td,
+th {
+    border: 1px solid #000;
+}
+
+table {
+    width: 500px;
+    table-layout: fixed;
+    empty-cells: show;
+}
+
+td,
+th {
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+th {
+    background-color: #8a8;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}

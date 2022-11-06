@@ -1,0 +1,22 @@
+img{
+    border: 1px solid black;
+    height: 200px;
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: left;
+}
+
+.fix{
+    clear: right;
+}
+
+.clean{
+    clear: left;
+}
+
+/*clear: b

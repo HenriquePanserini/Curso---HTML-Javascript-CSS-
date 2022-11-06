@@ -1,0 +1,13 @@
+#p1{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#dv1{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(100, 0, 0, 0.5);
+}

@@ -1,0 +1,12 @@
+@font-face{
+    font-family: eudora;
+
+}
+
+p{
+    font-family: Ariel, "Times New Roman", sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+    font-variant: normal;
+}

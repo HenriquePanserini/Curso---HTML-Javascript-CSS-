@@ -1,0 +1,11 @@
+#dv1{
+    height: 200px;
+    border: black solid 20px;
+    border-radius: 25px;
+    padding: 100px
+}
+#dv2{
+    height: 200px;
+    border: darkred solid 20px;
+    border-radius: 0px 40px 0px 40px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aula 24 - curso HTML - tag:dialog</title>
+    <link rel="stylesheet" href="ht19.css">
+    <script>
+        var x,y,n=0,ny=0,rotINT,rotYINT;
+
+        function rotateYDIV(){
+            y=document.getElementById("dv1");
+            clearInterval(rotYINT);
+            rotYINT=setInterval("startYRotate()",10);
+        }
+
+        function startYRotate(){
+            ny=ny+1;
+            y.style.transform="rotateY(" + ny + "deg)";
+            if (ny==180 || ny>=360){
+                clearInterval(rotYINT);
+                if(ny>=360){
+                    ny=0;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <p><strong><em>Gatos</em></strong> e <em><strong>Cachorros</strong></em> sao animais domesticos </p>
+    <div id = "dv1" onclick="rotateYDIV()">
+        <span>livro 1986 -  revolução</span>
+    </div>
+</body>
+</html>

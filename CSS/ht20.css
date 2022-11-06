@@ -1,0 +1,27 @@
+ol, ul{
+    list-style: none;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    colot: #FFF;
+}
+
+li:hover{
+    background-color: #F00;
+}
+
+
+li{
+    width: 150px;
+    height: 100px;
+    border: 1px solid #800;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #880000;
+    color: white;
+    border-right: 1px solid white;
+
+}
